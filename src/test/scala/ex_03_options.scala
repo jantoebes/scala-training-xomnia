@@ -1,6 +1,11 @@
+/************************************************/
+/** Tip: before you start with these exercises **/
+/** read the corresponding chapter in the docs **/
+/************************************************/
+
 import OptionsHelper._
 
-class Options extends ScalaTestWrapper {
+class ex_03_options extends ScalaTestWrapper {
 
   /** Concept Options
     */

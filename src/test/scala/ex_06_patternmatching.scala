@@ -1,6 +1,9 @@
+/************************************************/
+/** Tip: before you start with these exercises **/
+/** read the corresponding chapter in the docs **/
+/************************************************/
 
-
-class PatternMatching extends ScalaTestWrapper {
+class ex_06_patternmatching extends ScalaTestWrapper {
   /**
     * Pattern matching returns something:
     */

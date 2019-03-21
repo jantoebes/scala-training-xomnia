@@ -1,6 +1,9 @@
+/************************************************/
+/** Tip: before you start with these exercises **/
+/** read the corresponding chapter in the docs **/
+/************************************************/
 
-
-class Asserts extends ScalaTestWrapper {
+class ex_01_asserts extends ScalaTestWrapper {
 
   /** Come on, your turn: true and false values can be compared with should matchers:
     */

@@ -1,6 +1,9 @@
+/************************************************/
+/** Tip: before you start with these exercises **/
+/** read the corresponding chapter in the docs **/
+/************************************************/
 
-
-class Lists extends ScalaTestWrapper {
+class ex_05_lists extends ScalaTestWrapper {
   /** `eq` tests identity (same object):
     */
   scalaTest("similarToArraysLists", () => {

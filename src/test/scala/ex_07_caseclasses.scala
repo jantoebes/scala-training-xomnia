@@ -1,6 +1,9 @@
+/************************************************/
+/** Tip: before you start with these exercises **/
+/** read the corresponding chapter in the docs **/
+/************************************************/
 
-
-class CaseClasses extends ScalaTestWrapper {
+class ex_07_caseclasses extends ScalaTestWrapper {
   /**
     * Case classes have an automatic equals method that works:
     */

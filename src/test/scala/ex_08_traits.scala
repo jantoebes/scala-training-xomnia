@@ -1,6 +1,9 @@
+/************************************************/
+/** Tip: before you start with these exercises **/
+/** read the corresponding chapter in the docs **/
+/************************************************/
 
-
-class Traits extends ScalaTestWrapper {
+class ex_08_traits extends ScalaTestWrapper {
   /**
     * A class uses the `extends` keyword to mixin a trait if it is the only relationship the class inherits:
     */

@@ -1,6 +1,11 @@
+/************************************************/
+/** Tip: before you start with these exercises **/
+/** read the corresponding chapter in the docs **/
+/************************************************/
+
 import java.util.Date
 
-class Tuples extends ScalaTestWrapper {
+class ex_04_tuples extends ScalaTestWrapper {
 
   /**
     * As you can see, tuples can be created easily:
