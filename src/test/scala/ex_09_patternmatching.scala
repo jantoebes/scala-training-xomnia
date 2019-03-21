@@ -3,7 +3,7 @@
 /** read the corresponding chapter in the docs **/
 /************************************************/
 
-class ex_06_patternmatching extends ScalaTestWrapper {
+class ex_09_patternmatching extends ScalaTestWrapper {
   /**
     * Pattern matching returns something:
     */

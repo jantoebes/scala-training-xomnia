@@ -3,7 +3,7 @@
 /** read the corresponding chapter in the docs **/
 /************************************************/
 
-class ex_05_lists extends ScalaTestWrapper {
+class ex_06_lists extends ScalaTestWrapper {
   /** `eq` tests identity (same object):
     */
   scalaTest("similarToArraysLists", () => {

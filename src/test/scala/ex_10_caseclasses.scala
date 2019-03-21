@@ -3,7 +3,7 @@
 /** read the corresponding chapter in the docs **/
 /************************************************/
 
-class ex_07_caseclasses extends ScalaTestWrapper {
+class ex_10_caseclasses extends ScalaTestWrapper {
   /**
     * Case classes have an automatic equals method that works:
     */
