@@ -27,12 +27,12 @@ class Options extends ScalaTestWrapper {
     * If we have a `Some(x)` we return `x`, and for `None` we return the default value.
     */
   scalaTest("getOrElseOptions", () => {
-    val answer0: Option[String] = ???
-    val answer1: Option[String] = ???
-    val answer2: Option[String] = ???
+    val answer0: String = ???
+    val answer1: String = ???
+    val answer2: String = ???
 
-    val value1 = maybeItWillReturnSomething(true)
-    val value2 = maybeItWillReturnSomething(false)
+    val value1: Option[String] = maybeItWillReturnSomething(true)
+    val value2: Option[String] = maybeItWillReturnSomething(false)
 
     value1 getOrElse "No value" should be(answer0)
     value2 getOrElse "No value" should be(answer1)
@@ -95,9 +95,8 @@ class Options extends ScalaTestWrapper {
   /** Another operation is `fold`. This operation will extract the value from the option, or provide a default if the value is `None`
     */
   scalaTest("foldOptions", () => {
-    val answer0: Option[Int] = ???
-    val answer1: Option[Int] = ???
-
+    val answer0: Int = ???
+    val answer1: Int = ???
 
     val number: Option[Int] = Some(3)
     val noNumber: Option[Int] = None
